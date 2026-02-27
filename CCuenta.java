@@ -49,7 +49,7 @@ public class CCuenta {
     public String getCuenta(){
         return cuenta;
     }
-    public void setCuenta(string cuenta){
+    public void setCuenta(String cuenta){
         this.cuenta = cuenta;
     }
     
