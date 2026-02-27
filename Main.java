@@ -6,7 +6,7 @@ public class Main {
 
         miCuenta = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
         saldoActual = miCuenta.estado();
-        System.out.println("El saldo actual es"+ saldoActual );
+        System.out.println("El saldo actual es "+ saldoActual );
 
         try {
             miCuenta.retirar(2300);
